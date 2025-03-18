@@ -1,21 +1,22 @@
-*{
-    padding:0; 
-    margin:0;
-    box-sizing:border-box;
-}
-
-body{
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
     background-color: black;
-    color:white;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-.my-h1{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  
+  .my-h1 {
     text-align: center;
     padding: 2vh;
-}
-
-.results {
+  }
+  
+  .results {
     padding: 2vh 0;
     text-align: center;
     display: flex;
@@ -30,25 +31,30 @@ body{
     flex-direction: column;
     gap: 2vh;
   }
-
-.user-options{
-    display:flex;
-    justify-content:center;
-    padding:8vh;
-    gap:40px;
-}
-
-.user-options button{
-    background-color:transparent;
-    border:2px;
-    border-color:white;
-    border-radius:20px;
-    font-size:140px;
-    cursor: pointer
-    
-}
-
-.user-options button:hover {
-    background-color: #191919;
-    border-color: white;
+  
+  .user-options {
+    display: flex;
+    justify-content: center;
+    padding: 8vh;
+    gap: 40px;
   }
+  
+  .user-options button {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 20px;
+    font-size: 140px;
+    cursor: pointer;
+  }
+  
+  .user-options button:hover {
+    background-color: #191919;
+  }
+  
+  /* 
+  
+  
+  
+  
+  
+  */
